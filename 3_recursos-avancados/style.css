@@ -1,3 +1,8 @@
+body{
+  font-size: 15px;
+}
+
+
 /*1 - Estilos de listas*/
 .lista-pontos {
   list-style-type: square;
@@ -11,3 +16,38 @@
   list-style-type: none;
   list-style-image: url("img/circle.png");
 }
+
+/*2 - Unidades de medida */
+.container {
+  width: 80%;
+  border: 1px solid blue;
+  font-size: 10px;
+}
+
+.pixel-box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+}
+
+/* 1000px(html) -> 800px 80% => 400px 50%(percent-box)*/
+.percent-box{
+  width: 50%;
+  height: 100px;
+  border: 2px solid green;
+}
+
+/*2x o tamanho de font do elemento pai*/
+/*em fonto controlada pelo elemento pai*/
+.em-text {
+  font-size: 2em;
+}
+ /* rem, fonte controlada pelo root elemento */
+ .rem-text {
+  font-size: 2rem;
+ }
+
+ /* Cenario real: px e rem */
+ /* precisa conhecer todas, pq tem projeto antigo*/
+ 
+ /* regras 2 tipos: especificos, medidas*/
