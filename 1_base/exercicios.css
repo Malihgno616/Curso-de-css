@@ -1,0 +1,56 @@
+/* Ex 1 - Explicando o margin-example */
+
+/* A div da classe margin-example usa-se margin, o margin é para o espaçamento externo de um elemento, o width é a largura e o height é a altura, o border adiciona bordas para o elemento e o background-color altera a cor de fundo do elemento html */
+
+.background-highlight {
+  background-color: yellow;
+}
+
+/* Ex 2 - Seletores e Propriedades Básicas*/
+h1 {
+  background-color: #8585f7;
+}
+
+.text-large {
+  font-size: 24px;
+}
+
+/* Ex 3 - Cores em CSS */
+.hex-color {
+  color: #0000ff;
+}
+
+.bg-opacity {
+  background-color: rgba(27, 23, 255, 0.5);
+}
+
+/* Ex 4 - Box Model Completo */
+.padding-example {
+  padding: 20px;
+  border: 1px solid #444;
+}
+
+.width-height {
+  margin: 15px;
+  border: 1px solid #444;
+  padding: 20px;
+  width: 300px;
+  height: 700px;
+} 
+
+/* Ex 5 - Posicionamento Relativo e Absoluto */
+.relative-container {
+  position: relative;
+  width: 600px;
+  height: 800px;
+  border:1px solid #444;
+}
+
+.absolutely-positioned {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #fbff00;
+  bottom: 0;
+  right: 0;
+}
