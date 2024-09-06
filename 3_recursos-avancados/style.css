@@ -100,3 +100,24 @@ body{
  .multiple-gradients-box{
   background-image: linear-gradient(to left, rgba(70,200,155, .7),rgba(120,220,255, 0)), radial-gradient(circle at top, blue, blueviolet)
  }
+
+ /* 5 - text shadow e box shadow */
+ .box-shadow-example {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(173, 173, 173);
+  box-shadow: 5px 6px 20px #000;
+ }
+
+ .text-shadow-example {
+  font-size: 30px;
+  color: #fff;
+  background-color: rgb(255, 166, 0);
+  text-shadow: 1px 2px 2px rgba(0,0,0);
+ }
+
+ .multiple-shadow-box {
+  width: 300px;
+  height: 100px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3), -3px -3px 5px #e40909;
+ }
