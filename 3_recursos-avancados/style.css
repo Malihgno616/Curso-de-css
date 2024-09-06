@@ -155,3 +155,22 @@ body{
   z-index: 3;
   background-color: red;
 }
+
+/*7 - Variáveis */
+/* --palavra1-palavra: valor*/
+:root {
+  --main-color: #4ca;
+  --padding-value: 10px;
+  --text-color: #fff;
+}
+
+.content {
+  padding: var(--padding-value);
+}
+
+.text {
+  color: var(--text-color);
+  background-color: var(--main-color);
+  padding: var(--padding-value);
+}
+
