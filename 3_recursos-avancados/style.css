@@ -51,3 +51,32 @@ body{
  /* precisa conhecer todas, pq tem projeto antigo*/
  
  /* regras 2 tipos: especificos, medidas*/
+
+ /* 3 - Pseudo class e pseudo elementos */
+ /* pseudo class: seleciona um estado do elemento */
+ /* pseudo elemento: seleciona um parte do elemento */
+
+
+ .styled-list li:first-child{
+  color: rgb(255, 0, 0);
+ }
+ 
+ .styled-list li:last-child{
+  color: rgb(0, 0, 255);
+ }
+
+ .styled-list li::before{
+  content: ">> ";
+ }
+
+ .hover-box {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+ }
+
+ .hover-box:hover {
+  background-color: rgb(255, 31, 206);
+  transform: scale(1.1);
+ }
