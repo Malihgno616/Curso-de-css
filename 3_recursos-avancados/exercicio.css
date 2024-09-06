@@ -1,0 +1,123 @@
+body {
+  height: 1000px;
+}
+
+
+/* Exercicio 1 - Alterando as Cores de Fundo */
+
+.div1 {
+  background-color: #123;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.div2 {
+  background-color: #321;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+} 
+
+.div3 {
+  background-color: #456;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.div1:hover {
+  background-color: #654;
+}
+
+.div2:hover {
+  background-color: #987;
+}
+
+.div3:hover {
+  background-color: rgb(121, 76, 31);
+}
+
+/*Exercício 2 - Borda e Raio de Borda*/ 
+
+p {
+  padding: 30px;
+}
+
+.p1 {
+  border-style: dashed;
+  border-radius: 120px;
+}
+
+.p2 {
+  border-style: groove;
+  text-align: end;
+}
+
+.p3 {
+  border-style: inset;
+  border-radius: 50%;
+}
+
+/*Exercício 3 - Espaçamento de Paŕagrafos */
+.paragraph {
+  line-height: 2;
+  text-indent: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+/* Exercicio 4 - Alinamento de Texto */
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Exercício 5 - Transformação de Texto */
+
+button {
+  display: block;
+  margin: 20px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/*Exercício 6 - Imagem de Fundo com Opacidade*/
+.background-div {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  background-image: url("../2_projeto_cards/img/user_a.webp");
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.background-container {
+  position: relative;
+  
+}
+
+.background-container h2 {
+  position: absolute;
+  top: 0;
+}
+
+/* Exercício 7 - Lista Horizontal */
+
