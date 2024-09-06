@@ -174,3 +174,47 @@ body{
   padding: var(--padding-value);
 }
 
+/* 8 - Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-container div {
+  background-color: #f32121;
+}
+
+.grid-container {
+  gap: 10px;
+}
+
+/* Grid areas */
+.grid-container-area {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  height: 100vh;
+}
+
+.header{
+  grid-column: 1/ -1;
+  background-color: #e9e9e9;
+  text-align: center;
+}
+
+.aside {
+  grid-column: 1;
+  background-color: #797474;
+}
+
+.main-content { 
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #a56e6e;
+}
+
+.footer {
+  grid-column: 1/ -1;
+  background-color: #555;
+}
