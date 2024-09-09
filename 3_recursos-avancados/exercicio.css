@@ -121,3 +121,21 @@ button {
 
 /* Exercício 7 - Lista Horizontal */
 
+.horizontal-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.horizontal-menu li {
+  padding: 10px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.horizontal-menu li:hover {
+  background-color: #ddd;
+}
+
